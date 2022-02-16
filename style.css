@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins',sans-serif;
+    background: radial-gradient(#fff,#ffd6d6);
+}
+
+a{
+    text-decoration: none;
+    color: #555;
+}
+p{
+    color: #555;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.categories{
+    padding-top: 150px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col2 img{
+    max-width: 100%;
+    padding: 150px 0;
+}
+.col2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0zsa;
+}
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #563434;
+}
+.btn2{
+    display: inline-block;
+    background-color: darkred;
+    color: #fff;
+    padding: 8px 10px;
+    margin: 30px 0;
+    border-radius: 20px;
+    transition: background 0.5s;
+}
+.col3{
+    flex-basis: 30px;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col3 img{
+    width: 100%;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;;
+    padding-right: 25px;
+}
+
+.rupee{
+    color: green;
+}
+
+h3{
+    color: #555;
+    font-weight: normal;
+}
+
+.col4:hover{
+    transform: translateY(-5px);
+
+}
+.col3:hover{
+    transform: translateY(-5px);   
+    transition: transform0.5s;
+}
+
+
+
+.icon{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;;
+    padding-right: 25px;
+    padding-top: 100px;
+}
+.ico{
+    flex-basis: 30px;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 30px;
+}
+.icon h2{
+    color:palevioletred;
+}
+.icon h1{
+    color:crimson;
+}
+.ico:hover{
+    transform:skewy(20deg);
+}
+.small-container h1{
+    padding-bottom: 50px;
+    color: maroon;
+}
+.clock{
+    background: radial-gradient(#fff,#ffd6d6);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+.col2  .clock1{
+    padding: 50px;
+}
+ul{
+    color: #555;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+footer{
+    background-color:rgb(54, 54, 54);
+    color: black;
+}
+form{
+    padding-top: 20px;
+    margin: 20px;
+    
+}
+
+
+.bttn{
+    display: inline-block;
+    background-color:darkgray;
+    color:firebrick;
+    padding: 5px 10px;
+    margin: 10px 0;
+    transition: background 0.5s;
+}
+.bttn:hover{
+    background: #563434;
+}
+.foot{
+ 
+    display: flex;
+    padding-right: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 30px;
+}
+.foot span:hover{
+    background: whitesmoke;
+}
+footer hr{
+    border: none;
+    background: #5a5353;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright{
+    text-align: center;
+
+}
+footer{
+    text-align: center;
+}
+.span{
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.small-container{
+    color: darkmagenta;
+}
+.bttn5{
+    display: inline-block;
+    background-color:coral;
+    color:white;
+    border-radius: px;
+    padding: 2px 10px;
+    margin: 10px 0;
+    transition: background 0.5s;
+    margin-right: 0;
+    margin-left: -12px;
+    height: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+    background: #ff523b;
+}
+.search{
+    position: absolute;
+    left: 60%;
+    top: 40px;
+    border-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-right: 0;
+    margin-left: -10px;
+    height: 30px;
+  
+
+}
+#text{
+    height: 30px;
+    margin-right: 10px;
+    padding: 0 10px;
+    background-color:floralwhite;
+    border-bottom-left-radius:10px;
+    border-top-left-radius:10px;
+    background: #ebaba2;
+    color: ivory;
+}
+
+@media only screen and (max-width:600px){
+    
+    .row{
+        text-align: center;
+    }
+    .col2,.col3,.col4{
+        flex-basis: 100;
+    }
+    
+    .col2 li{
+        text-align: justify;
+    }
+    video{
+        text-align: center;
+        width: 350px;
+    }
+    #text{
+        width: 80px;
+    }
+    .search{
+        text-align: center;
+        margin-right: 10px;
+    }
+    .bttn5{
+        width: 70px;
+    }
+}
+
+
+
